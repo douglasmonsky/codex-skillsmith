@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Thread Renamer"
+  short_description: "Review and rename Codex chats from context"
+  default_prompt: "Use $codex-thread-renamer to review Codex chat titles, score their quality, suggest better names, and rename only the approved rows."
