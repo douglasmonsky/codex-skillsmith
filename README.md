@@ -19,7 +19,6 @@ skills/
   pypi-deploy/
     SKILL.md
     agents/openai.yaml
-    references/codex-usage-tracker.md
 scripts/
   validate_skills.rb
 ```
