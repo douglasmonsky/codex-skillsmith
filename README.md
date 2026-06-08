@@ -7,6 +7,7 @@ This repository is a public home for practical skills that start as local workfl
 ## Included Skills
 
 - `codex-thread-renamer`: reviews Codex chat titles, scores title quality, suggests better titles, and applies approved renames through supported Codex thread tools.
+- `pypi-deploy`: maintainer-only release workflow for preparing, verifying, and publishing Python packages to TestPyPI or PyPI with Trusted Publishing.
 
 ## Layout
 
@@ -15,6 +16,10 @@ skills/
   codex-thread-renamer/
     SKILL.md
     agents/openai.yaml
+  pypi-deploy/
+    SKILL.md
+    agents/openai.yaml
+    references/codex-usage-tracker.md
 scripts/
   validate_skills.rb
 ```
@@ -35,6 +40,7 @@ Copy a skill folder into your local Codex skills directory:
 
 ```sh
 cp -R skills/codex-thread-renamer ~/.codex/skills/
+cp -R skills/pypi-deploy ~/.codex/skills/
 ```
 
 Restart or reload Codex if the skill list does not update immediately.

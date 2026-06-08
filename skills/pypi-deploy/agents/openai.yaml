@@ -1,0 +1,4 @@
+interface:
+  display_name: "PyPI Deploy"
+  short_description: "Prepare and publish Python releases safely"
+  default_prompt: "Use $pypi-deploy to prepare, verify, or publish a Python package release with Trusted Publishing and no PyPI tokens."
