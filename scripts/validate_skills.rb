@@ -34,5 +34,10 @@ skill_files.each do |path|
     fail_with("agents/openai.yaml missing interface: #{openai_yaml}") unless metadata["interface"].is_a?(Hash)
   end
 
+  Dir.glob(File.join(skill_dir, "scripts", "*.py")).sort.each do |script|
+    system("python3", "-m", "py_compile", script)
+    fail_with("Python script failed to compile: #{script}") unless $?.success?
+  end
+
   puts "ok #{frontmatter["name"]}"
 end

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Release Captain"
+  short_description: "Prepare release notes, validation evidence, risk review, smoke tests, and rollback plans."
+  default_prompt: "$release-captain prepare this repository for release. Do not tag, push, publish, or deploy unless explicitly instructed."
+policy:
+  allow_implicit_invocation: true
