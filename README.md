@@ -20,7 +20,6 @@ skills/
   pypi-deploy/
     SKILL.md
     agents/openai.yaml
-    references/codex-usage-tracker.md
   release-captain/
     SKILL.md
     agents/openai.yaml

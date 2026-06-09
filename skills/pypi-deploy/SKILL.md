@@ -11,7 +11,7 @@ Use this skill for maintainer release operations on Python packages. Do not use 
 
 Default to PyPI Trusted Publishing through GitHub Actions. Trusted Publishing avoids long-lived PyPI tokens by using GitHub Actions OIDC and publish jobs with `id-token: write`.
 
-For `douglasmonsky/codex-usage-tracker`, read `references/codex-usage-tracker.md` before editing release files or publishing.
+For repository-specific release details, read that repository's release docs and package metadata before editing release files or publishing.
 
 If asked to create or repair a publish workflow, use the project-specific release gate and adapt it to the repository's real package layout. Do not paste a generic workflow without checking the repo.
 
